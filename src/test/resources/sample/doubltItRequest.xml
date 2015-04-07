@@ -1,0 +1,13 @@
+<soapenv:Envelope 
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+	xmlns:doub="http://www.example.org/schema/DoubleIt">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <doub:DoubleIt>
+      	<requestItem>
+         		<numberToDouble>4</numberToDouble>
+         		<numberToHalf>2</numberToHalf>
+         </requestItem>
+      </doub:DoubleIt>
+   </soapenv:Body>
+</soapenv:Envelope>
